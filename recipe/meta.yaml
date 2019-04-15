@@ -22,7 +22,7 @@ requirements:
     - maven
     - openjdk 8.*
     - wget
-    - clangdev 7.*
+    - clangdev >=6.*
     - go
     - bisonpp
   host:
@@ -38,7 +38,7 @@ requirements:
     - libarchive
     - libkml
     - libpng
-    - llvmdev 7.*
+    - llvmdev >=6.*
     - openssl
     - parquet-cpp
     - thrift-cpp >=0.11.0
