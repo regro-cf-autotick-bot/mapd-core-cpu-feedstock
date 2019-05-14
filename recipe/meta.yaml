@@ -22,8 +22,8 @@ requirements:
     - maven
     - openjdk 8.*
     - wget
-    - clangdev 7.*
-    - go
+    - clangdev 8.*
+    - go >=1.6
     - bisonpp
   host:
     - snappy  # required for mapd-core > 4.5.0
@@ -31,21 +31,23 @@ requirements:
     - blosc
     - boost-cpp >=1.68
     - double-conversion
-    - libgdal
+    - libgdal >=2.3
     - flex
     - gflags
     - glog
     - libarchive
     - libkml
     - libpng
-    - llvmdev 7.*
+    - llvmdev 8.*
     - openssl
     - parquet-cpp
     - thrift-cpp >=0.11.0
     - ncurses
   run:
+    - snappy  # required for mapd-core > 4.5.0
     - boost-cpp >=1.68
-    - libgdal
+    - double-conversion
+    - libgdal >=2.3
     - glog
     - gflags
     - openjdk 8.*
