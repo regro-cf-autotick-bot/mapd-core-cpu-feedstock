@@ -1,13 +1,13 @@
 {% set name = "mapd-core-cpu" %}
 {% set version = "4.6.1" %}
-{% set sha256 = "06020a9ca43590b23722608c5cfe8ac933d94169927e07f21b2814657a9d8a5d" %}
+{% set sha256 = "04d69fd4b5d48e4bff937ad9c149c8a98746d54263485fcc3b840a4682bdda0d" %}
 
 package:
   name: {{ name|lower }}
   version: {{ version }}
 
 source:
-  url: https://github.com/mapd/mapd-core/archive/v{{ version }}.tar.gz
+  url: https://github.com/omnisci/omniscidb/archive/v{{ version }}.tar.gz
   sha256: {{ sha256 }}
 
 build:
