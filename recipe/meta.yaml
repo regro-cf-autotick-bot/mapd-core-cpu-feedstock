@@ -1,6 +1,6 @@
 {% set name = "mapd-core-cpu" %}
-{% set version = "4.6.1" %}
-{% set sha256 = "06020a9ca43590b23722608c5cfe8ac933d94169927e07f21b2814657a9d8a5d" %}
+{% set version = "4.7.0" %}
+{% set sha256 = "00e4937ca15a13658e24bc18dd0468dd4820cf02a3d014161ac8cc9c6c7d3d1c" %}
 
 package:
   name: {{ name|lower }}
